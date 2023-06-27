@@ -1,0 +1,90 @@
+*{
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+nav{
+
+    height: 30px;
+    display: flex;
+    padding: 20px 36px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.nav-logo{
+    max-width: 100px;
+}
+.hero{
+    
+}
+.grid-img{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    margin-top: 5%;
+}
+.head-el{
+    margin-top: 5%;
+    margin-left: 7%;
+    font-size: 5em;
+    font-family: 'Poppins', sans-serif;
+}
+.para-el{
+    margin-top: 2%;
+    margin-left: 7%;
+    font-size: 2rem;
+    max-width: 700px;
+    font-family: 'Poppins', sans-serif;
+}
+.Card{
+    display: flex;
+    flex-direction: column;
+}
+.Card-el{
+       width: 275px;
+
+}
+.cards-list{
+    margin-left: 7%;
+    margin-top: 6%;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    flex-direction: row;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    column-gap: 20px;
+ 
+}
+
+.picture-el{
+    width: 100%;
+    border-radius: 9px;
+    margin-bottom: 9px;
+    margin-right: 20px;
+}
+
+.info-el{
+    display: flex;
+    border: none;
+    align-items: center;
+}
+.star-el{
+    height: 14px;
+}
+.price-el{
+    font-weight: bold;
+}
+.title-el{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
