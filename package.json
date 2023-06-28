@@ -1,4 +1,5 @@
 {
+  "json.schemaDownload.enable": true,
   "homepage": "http://afratara.github.io/airbnb-clone-React",
   
   "name": "vite-react",
